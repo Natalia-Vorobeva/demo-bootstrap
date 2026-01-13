@@ -1,8 +1,9 @@
 import Header from './components/Header';
 import Main from './components/Main';
-import Features from './components/Features';
+import Advantages from './components/Advantages';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
       <Header />
       <main role="main">
         <Main />
-        <Features />
+        <Advantages />
         <ContactForm />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 }

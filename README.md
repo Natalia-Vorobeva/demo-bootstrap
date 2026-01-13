@@ -1,16 +1,32 @@
-# React + Vite
+# Демо-проект: Bootstrap 4 + React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Демо](https://img.shields.io/badge/Демо-Запустить_сайт-007bff?style=for-the-badge&logo=vercel)](https://demo-bootstrap.vercel.app)
 
-Currently, two official plugins are available:
+Демонстрационный проект, созданный для показа навыков работы с Bootstrap 4, React и современными фронтенд-технологиями. Проект включает адаптивную верстку, семантическую разметку.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Особенности проекта
 
-## React Compiler
+- **Адаптивный дизайн** - корректное отображение на всех устройствах
+- **Семантическая верстка** - правильное использование HTML5 тегов и ARIA-атрибутов
+- **Кроссбраузерность** - поддержка современных браузеров
+- **Оптимизация производительности** - быстрая загрузка благодаря Vite
+- **Доступность (a11y)** - поддержка скринридеров и клавиатурной навигации
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Технологический стек
 
-## Expanding the ESLint configuration
+- **Bootstrap 4.6.2** - фреймворк для создания адаптивных интерфейсов
+- **React 18** - библиотека для построения пользовательских интерфейсов
+- **Vite** - современный сборщик для быстрой разработки
+- **JavaScript ES6+** - современный синтаксис JavaScript
+- **CSS3** - Flexbox, Grid, анимации
+`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Проект полностью адаптивен и корректно отображается на:
+
+* Десктопах (≥ 1200px)
+
+* Ноутбуках (≥ 992px)
+
+* Планшетах (≥ 768px)
+
+* Мобильных устройствах (< 768px)

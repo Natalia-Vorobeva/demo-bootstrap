@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   build: {
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks: {
@@ -11,15 +13,6 @@ export default defineConfig({
           bootstrap: ['bootstrap', 'jquery', 'popper.js']
         }
       }
-    },
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true
-      }
     }
-  },
-  base: './',
-  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg']
+  }
 });

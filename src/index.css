@@ -77,3 +77,296 @@ textarea:focus {
     color: #000 !important;
   }
 }
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  transform: translateY(-5px);
+}
+
+.back-to-top {
+  transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+  transform: scale(1.1);
+}
+
+/* Стили для контактной формы */
+.contact-icon {
+  transition: all 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.needs-validation .form-control:valid {
+  border-color: #28a745;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.needs-validation .form-control.is-invalid {
+  border-color: #dc3545;
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+@media (max-width: 991.98px) {
+  .card .row.no-gutters {
+    flex-direction: column;
+  }
+  
+  .col-lg-5.bg-primary {
+    border-radius: 0.375rem 0.375rem 0 0 !important;
+  }
+  
+  .col-lg-7 {
+    border-radius: 0 0 0.375rem 0.375rem !important;
+  }
+}
+
+.form-control:focus {
+  border-color: #7952b3;
+  box-shadow: 0 0 0 0.2rem rgba(121, 82, 179, 0.25);
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+a.text-white.text-decoration-underline.opacity-75 {
+  text-decoration: underline !important;
+  opacity: 0.9;
+}
+
+a.text-white.text-decoration-underline.opacity-75:hover {
+  opacity: 1;
+  text-decoration: none !important;
+}
+
+/* Стили для главной секции */
+.main-section {
+  position: relative;
+}
+
+/* Эффекты для карточек и кнопок */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Анимация для прогресс-баров */
+.progress-bar {
+  transition: width 1s ease-in-out;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+  .main-section .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .main-section .lead {
+    font-size: 1.1rem;
+  }
+  
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Эффект параллакса для декоративных элементов */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.position-absolute svg {
+  animation: float 6s ease-in-out infinite;
+}
+
+.position-absolute svg:last-child {
+  animation-delay: 3s;
+}
+
+/* Градиентный текст */
+.gradient-text {
+  background: linear-gradient(90deg, #7952b3, #563d7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Эффекты для карточек */
+.tech-card-hover {
+  transition: all 0.3s ease;
+}
+
+.tech-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.1) !important;
+}
+
+/* Градиентные тексты */
+.gradient-text {
+  background: linear-gradient(90deg, #007bff, #0056cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Стили для иконок в карточках */
+.tech-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.1), rgba(0, 86, 204, 0.05));
+  transition: all 0.3s ease;
+}
+
+.tech-icon-wrapper:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.15), rgba(0, 86, 204, 0.1));
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .tech-card {
+    margin-bottom: 20px;
+  }
+  
+  .tech-card .col-6 {
+    margin-bottom: 10px;
+  }
+}
+
+/* Адаптация для маленьких экранов */
+@media (max-width: 576px) {
+  .advantages-section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .advantages-section .h1 {
+    font-size: 1.75rem;
+  }
+  
+  .advantages-section .lead {
+    font-size: 1rem;
+  }
+  
+  .advantages-section .card {
+    margin-bottom: 1rem;
+    min-height: auto !important;
+  }
+  
+  /* Адаптация карточек технологий */
+  .card-body {
+    padding: 1rem !important;
+  }
+  
+  .tech-item {
+    margin-bottom: 0.75rem !important;
+  }
+  
+  .tech-item .mr-3 {
+    margin-right: 0.75rem !important;
+  }
+  
+  /* Уменьшаем размер иконок на мобильных */
+  .tech-icon-wrapper {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 6px !important;
+  }
+  
+  .tech-icon-wrapper > div {
+    font-size: 0.9rem !important;
+  }
+  
+  .tech-text {
+    font-size: 0.85rem !important;
+  }
+  
+  .tech-subtext {
+    font-size: 0.7rem !important;
+  }
+}
+
+/* Для средних экранов */
+@media (max-width: 768px) {
+  .advantages-section .col-md-6 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Делаем карточки одинаковой высоты */
+  .advantages-section .card {
+    height: 100%;
+  }
+  
+  /* Уменьшаем отступы в карточке технологий */
+  .card-body {
+    padding: 1.25rem !important;
+  }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 400px) {
+  .advantages-section .h1 {
+    font-size: 1.5rem;
+  }
+  
+  .advantages-section .lead {
+    font-size: 0.9rem;
+  }
+  
+  /* Технологии в одну колонку на очень маленьких экранах */
+  .col-sm-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Улучшения для скролла на мобильных */
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 60px; /* Меньший отступ на мобильных */
+  }
+  
+  .advantages-section {
+    scroll-margin-top: 60px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-icon {
+    flex-shrink: 0 !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+  }
+  
+  /* Гарантируем, что иконки останутся круглыми */
+  .contact-icon.rounded-circle {
+    border-radius: 50% !important;
+  }
+  
+  /* Улучшаем отображение длинных текстов */
+  .text-break {
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+}

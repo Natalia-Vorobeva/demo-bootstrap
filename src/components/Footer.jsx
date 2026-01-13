@@ -113,7 +113,7 @@ function Footer() {
 						</p>
 						<p className="mb-0 small">
 							<a
-								href="https://demo-bootstrap.vercel.app"
+								href="https://demo-bootstrap4.vercel.app"
 								className="text-light"
 								target="_blank"
 								rel="noopener noreferrer"

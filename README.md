@@ -1,6 +1,7 @@
 # Демо-проект: Bootstrap 4 + React
 
-[![Демо](https://img.shields.io/badge/Демо-Запустить_сайт-007bff?style=for-the-badge&logo=vercel)](https://demo-bootstrap.vercel.app)
+[![Демо](https://img.shields.io/badge/Демо_на_vercel-Запустить_сайт-007bff?style=for-the-badge&logo=vercel)](https://demo-bootstrap4.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Код_проекта-181717?style=for-the-badge&logo=github)](https://github.com/vorobjevaa/bootstrap4-demo)
 
 Демонстрационный проект, созданный для показа навыков работы с Bootstrap 4, React и современными фронтенд-технологиями. Проект включает адаптивную верстку, семантическую разметку.
 
